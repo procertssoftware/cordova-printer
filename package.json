@@ -1,0 +1,53 @@
+{
+  "name": "pcs-plugin-printer",
+  "version": "0.8.0",
+  "description": "Prints HTML documents",
+  "cordova": {
+    "id": "pcs-plugin-printer",
+    "platforms": [
+      "ios",
+      "android",
+      "windows",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/procertssoftware/cordova-printer.git"
+  },
+  "keywords": [
+    "appplant",
+    "printer",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=19"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=8.0"
+    }
+  ],
+  "author": "Sebastián Katzer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-printer/issues"
+  },
+  "homepage": "https://github.com/katzer/cordova-plugin-printer#readme",
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
